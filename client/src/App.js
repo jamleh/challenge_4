@@ -8,7 +8,7 @@ class App  extends Component {
         for(let y=5;y>=0;y--){
             const row=[]
             for(let x=0;x<7;x++){
-                row.push(<GridCell key={x+y} x={x} y={y} />); 
+                row.push(<GridCell key={x} x={x} y={y} />); 
             }
                 cells.push(<div key={y} className='row'>{row}</div>)
         }
