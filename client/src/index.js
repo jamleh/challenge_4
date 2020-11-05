@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Form from './form'
+import App from './App'
 
 
-ReactDom.render(<Form />, document.getElementById("root"));
+ReactDom.render(<App />, document.getElementById("root"));
